@@ -28,9 +28,6 @@ public class Logic {
     //Проверка делимости
     public String Check_Division(int i) {
         String result = Integer.toString(i);
-        /*if (Divided_By_Three(i)) result =  "Fizz";
-        if(Divided_By_Five(i)) result =  "Buzz";
-        if(Divided_By_Both(i)) result = "FizzBuzz";*/
         if (Divided_By_Both(i)) {
             result = "FizzBuzz";
         }
